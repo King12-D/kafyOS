@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+
+printf 'Kafy OS\n' > /etc/issue
+printf 'Kafy OS\n' > /etc/issue.net
+
+if [ -f /etc/os-release ]; then
+  sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME="Kafy OS"/' /etc/os-release
+fi

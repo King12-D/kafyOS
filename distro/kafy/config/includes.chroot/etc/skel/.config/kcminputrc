@@ -1,0 +1,3 @@
+[libinput][touchpad]
+tapToClick=true
+naturalScroll=true

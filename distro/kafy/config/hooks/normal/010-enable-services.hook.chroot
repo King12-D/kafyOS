@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+
+systemctl enable NetworkManager.service
+systemctl enable bluetooth.service
+systemctl enable cups.service
+systemctl enable sddm.service
+systemctl enable power-profiles-daemon.service
+systemctl enable fstrim.timer

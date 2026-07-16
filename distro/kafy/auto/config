@@ -1,0 +1,37 @@
+#!/bin/sh
+set -eu
+
+has_lb_option() {
+  lb config --help 2>&1 | grep -q -- "$1"
+}
+
+set -- noauto \
+  --mode debian \
+  --distribution bookworm \
+  --archive-areas "main contrib non-free non-free-firmware" \
+  --binary-image iso-hybrid \
+  --debian-installer live \
+  --debian-installer-gui true \
+  --firmware-binary false \
+  --firmware-chroot false \
+  --iso-application "Kafy OS" \
+  --iso-publisher "Kafy Project" \
+  --iso-volume "KAFY_OS" \
+  --linux-flavours amd64 \
+  --memtest none
+
+if has_lb_option "--security"; then
+  set -- "$@" --security false
+fi
+
+if has_lb_option "--bootloaders"; then
+  set -- "$@" --bootloaders "grub-efi grub-pc"
+elif has_lb_option "--bootloader"; then
+  set -- "$@" --bootloader grub-efi
+fi
+
+if has_lb_option "--image-name"; then
+  set -- "$@" --image-name kafy-os
+fi
+
+lb config "$@"

@@ -1,0 +1,12 @@
+.build/
+binary/
+cache/
+chroot/
+local/
+*.buildlog
+*.iso
+*.img
+*.contents
+*.files
+*.packages
+*.zsync

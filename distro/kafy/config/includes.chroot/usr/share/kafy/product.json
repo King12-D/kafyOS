@@ -1,0 +1,13 @@
+{
+  "id": "kafy-os",
+  "name": "Kafy OS",
+  "base": "Debian stable",
+  "image_profile": "kafy",
+  "desktop_baseline": "KDE Plasma Wayland",
+  "future_compositor": "Smithay",
+  "goals": [
+    "zero setup after install",
+    "macOS-like desktop flow",
+    "gaming ready by default"
+  ]
+}

@@ -1,0 +1,23 @@
+---
+componentName:   debian
+
+strings:
+    productName:         "Kafy OS"
+    shortProductName:    "Kafy"
+    versionName:         "2026.07"
+    shortVersionName:    "2026.07"
+    installSystemName:   "Kafy OS"
+    productUrl:          "https://github.com/King12-D/kafyOS"
+    supportUrl:          "https://github.com/King12-D/kafyOS/issues"
+    releaseNotesUrl:     "https://github.com/King12-D/kafyOS"
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "squid.png"
+    productWelcome:      "welcome.png"
+
+style:
+    sidebarBackground:    "#121218"
+    sidebarText:          "#F0F0F5"
+    sidebarTextSelect:    "#B496FA"
+    sidebarTextHighlight: "#5D3FD3"

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Kafy OS Setup
+Comment=Configure locale, keyboard layout, and gaming defaults
+Exec=kafy-first-boot
+Icon=preferences-system
+Terminal=false
+Categories=System;Settings;
+X-KDE-Autostart-after=panel

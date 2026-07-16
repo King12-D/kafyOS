@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+
+# Enable i386 multiarch for Steam and other 32-bit gaming packages
+dpkg --add-architecture i386
+apt-get update

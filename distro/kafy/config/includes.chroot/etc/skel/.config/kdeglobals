@@ -1,0 +1,9 @@
+[General]
+ColorScheme=BreezeDark
+
+[Icons]
+Theme=Papirus-Dark
+
+[KDE]
+ShowDeleteCommand=true
+SingleClick=true

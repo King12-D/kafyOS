@@ -1,0 +1,9 @@
+[org.kde.kdecoration2]
+ButtonsOnLeft=XIA
+ButtonsOnRight=
+CloseOnDoubleClickOnMenu=false
+
+[Plugins]
+desktopgridEnabled=true
+overviewEnabled=true
+presentwindowsEnabled=true

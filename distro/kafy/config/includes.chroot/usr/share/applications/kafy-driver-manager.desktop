@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Driver Manager
+Comment=Manage graphics drivers, gamepad controllers, and firmware updates
+Exec=kafy-driver-manager
+Icon=preferences-desktop-display
+Terminal=false
+Categories=System;Settings;HardwareSettings;

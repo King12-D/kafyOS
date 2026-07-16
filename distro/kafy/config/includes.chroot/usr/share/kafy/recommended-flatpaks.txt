@@ -1,0 +1,7 @@
+com.usebottles.bottles
+com.discordapp.Discord
+com.heroicgameslauncher.hgl
+com.valvesoftware.Steam
+net.davidotek.pupgui2
+org.freedesktop.Platform.VulkanLayer.MangoHud
+org.freedesktop.Platform.VulkanLayer.vkBasalt

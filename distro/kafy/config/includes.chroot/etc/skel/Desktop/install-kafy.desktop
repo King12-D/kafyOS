@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Kafy OS
+GenericName=System Installer
+Comment=Install Kafy OS to your hard drive
+Exec=pkexec calamares
+Icon=system-software-install
+Terminal=false
+Categories=System;

@@ -1,0 +1,30 @@
+#!/bin/sh
+set -eu
+
+missing=""
+
+for command in lb debootstrap xorriso mksquashfs; do
+  if ! command -v "$command" >/dev/null 2>&1; then
+    missing="$missing $command"
+  fi
+done
+
+if [ -n "$missing" ]; then
+  cat >&2 <<'EOF'
+Kafy build host is missing required tools.
+
+Install them with:
+
+  sudo apt update
+  sudo apt install live-build live-config live-boot debootstrap xorriso squashfs-tools
+
+Why:
+  lb         comes from live-build and creates the Debian live image
+  debootstrap creates the temporary Debian root filesystem
+  xorriso   creates the bootable ISO
+  mksquashfs compresses the live filesystem
+EOF
+  exit 1
+fi
+
+echo "Kafy build host looks ready."
