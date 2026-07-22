@@ -1,0 +1,11 @@
+PRETTY_NAME="Kafy OS"
+NAME="Kafy OS"
+VERSION_ID="2026.07"
+VERSION="2026.07 (Gaming Edition)"
+VERSION_CODENAME=bookworm
+ID=kafy
+ID_LIKE=debian
+HOME_URL="https://github.com/King12-D/kafyOS"
+SUPPORT_URL="https://github.com/King12-D/kafyOS/issues"
+BUG_REPORT_URL="https://github.com/King12-D/kafyOS/issues"
+ANSI_COLOR="0;35"

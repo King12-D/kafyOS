@@ -7,3 +7,14 @@ CloseOnDoubleClickOnMenu=false
 desktopgridEnabled=true
 overviewEnabled=true
 presentwindowsEnabled=true
+
+[Desktops]
+Number=2
+Rows=1
+
+[Touchpad]
+SwipeFilters=true
+SwipeUp=Overview
+SwipeDown=Overview
+SwipeLeft=VirtualDesktopLeft
+SwipeRight=VirtualDesktopRightx
